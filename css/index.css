@@ -5,24 +5,31 @@
 @media screen and (min-width:480px) and (max-width:768px){
   /*　画面サイズが480pxからはここを読み込む　*/
   #slide {
-    width:400px;
-    height: 300px;
+    display: none;
+  }
+  #slide_link{
+    display:block;
   }
 }
 @media screen and (min-width:768px) and ( max-width:1024px) {
   /*　画面サイズが768pxから1024pxまではここを読み込む　*/
   #slide {
-    width:700px;
-    height: 525px;
+    display: none;
+  }
+  #slide_link{
+    display:block;
   }
 }
 
 
-@media screen and (min-width:1024px) and ( max-width:1366px) {
+@media screen and (min-width:1025px) and ( max-width:1366px) {
   /*　画面サイズが768pxから1024pxまではここを読み込む　*/
   #slide {
     width:1000px;
     height: 750px;
+  }
+  #slide_link{
+    display:none;
   }
 }
 
@@ -30,5 +37,8 @@
   #slide {
     width:1000px;
     height: 750px;
+  }
+  #slide_link{
+    display:none;
   }
 }
